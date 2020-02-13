@@ -7,7 +7,7 @@ Add-on to interpret Digital Arts' i-Filter access log. Compatible with i-Filter 
 1. Logon to your Splunk and go to "Manage Apps".
 2. Click either "Install app from file" or "Browse more apps".
 3. "Install app from file"
-  * Upload this app's tar.gz, which you should have gotten either from splunkbase or github beforehand.
+      * Upload this app's tar.gz, which you should have gotten either from splunkbase or github beforehand.
 4. "Browse More Apps"
       * Search this app using the keywords like "i-Filter" to find "Add-on for i-Filter", and then follow the instruction shown in the modal.
 
