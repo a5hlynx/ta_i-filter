@@ -1,6 +1,6 @@
 # Add-on for i-Filter
 
-Add-on to interpret Digital Arts' i-Filter access log. Compatible with i-Filter ver 8 and 9.
+Add-on to interpret Digital Arts' i-Filter access log. Compatible with i-Filter ver 8, 9, and 10.
 
 # Installation
 
@@ -15,9 +15,9 @@ Add-on to interpret Digital Arts' i-Filter access log. Compatible with i-Filter 
 
 ## Ingest access logs
 
-Just specify either i-filter:v8 or i-filter:v9 as sourcetype depending on the i-Filter version in ingesting its access logs.
+Just specify i-filter:access as sourcetype, then the app automatically recognizes its version among 8, 9, and 10 in ingesting access logs.
 
 
 ## Generate sample logs
 
-The Add-on automatically generates i-Filter access logs in both ver 8 and 9 if [Eventgen](https://splunkbase.splunk.com/app/1924/) is installed and enabled on your Splunk. The generated data is indexized into main by default, which can be changed by modifying eventgen.conf. See also [Eventgen Documentation](http://splunk.github.io/eventgen/).
+The Add-on automatically generates i-Filter access logs in ver 8, 9, and 10 if [Eventgen](https://splunkbase.splunk.com/app/1924/) is installed and enabled on your Splunk. The generated data is indexized into main by default, which can be changed by modifying eventgen.conf. See also [Eventgen Documentation](http://splunk.github.io/eventgen/).
