@@ -1,0 +1,3 @@
+<nav search_view="search" color="#00A3E9">
+  <view name="search" default='true'/>
+</nav>
